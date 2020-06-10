@@ -2428,6 +2428,14 @@ input, select, textarea {
 			width: 30rem;
 		}
 
+		.panel .span-1-5 {
+			width: 15rem;
+		}
+
+		.panel .span-6-0 {
+			width: 60rem;
+		}
+
 		.panel .span-3-25 {
 			width: 32.5rem;
 		}
