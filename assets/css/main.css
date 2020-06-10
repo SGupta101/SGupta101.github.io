@@ -2400,10 +2400,6 @@ input, select, textarea {
 			width: 12.5rem;
 		}
 
-		.panel .span-1-5 {
-			width: 15rem;
-		}
-
 		.panel .span-1-75 {
 			width: 17.5rem;
 		}
@@ -2426,14 +2422,6 @@ input, select, textarea {
 
 		.panel .span-3 {
 			width: 30rem;
-		}
-
-		.panel .span-1-5 {
-			width: 15rem;
-		}
-
-		.panel .span-6-0 {
-			width: 60rem;
 		}
 
 		.panel .span-3-25 {
