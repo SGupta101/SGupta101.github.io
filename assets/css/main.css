@@ -2277,7 +2277,8 @@ input, select, textarea {
 		}
 
 			.panel > .intro.joined {
-				width: 18.5rem;
+				/*width: 18.5rem;*/
+				width: 25rem;
 				padding-right: 0;
 			}
 
