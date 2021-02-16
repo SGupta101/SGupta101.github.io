@@ -43,9 +43,21 @@
 							<h1>Computational Journalism</h1>
 							<p>I started coding because of the enthrall of (re)building something new, and continued because I realized computer science could be applied to fields from biology to music. I started journalism simply because I like to write, and continued because it’s a way I can learn a bit of everything. With knowledge, however, comes responsibility. Journalism is meant to give others a better understanding of the world, but this understanding gets muddled by media bias, rampant disinformation, and political polarization. I love computational journalism because I can mitigate this problem by efficiently unraveling complex stories in a more understandable and reputable manner using algorithms and data–my own serendipity.</p>
 						</header>
+						<h3>Previous internship experience</h3>
+						<h4>Phone2Action</h4>
+						<p>I was hired as an intern for the engineering team of Digital Advocacy tech startup Phone2Action after winning Phone2Action's sponsorship prize at our high school hackathon HackTJ for my project <a href="https://devpost.com/software/capconnector" target="_blank">CAPConnect</a>. ‘CAPConnect’ is a mobile app that connects individuals with local campaigns based on their interests (e.g. wildlife preservation, increased minimum wage). The app was built using Elasticsearch, Android Studio (Java), and Flask (Python).</p>
+						<p><a href="https://phone2action.com" target="_blank">Phone2Action</a> is where I formally recieved my first taste of the blend between politics and computer science. During this internship, I created a virtual reality simulation integrated with voice recognition where the user can speak with their representative about a specific campaign issue (ex. the Voting Rights Act). After transcribing their answers using the Google Speech-to-Text API, the program compiles their message into an email and sends it to their representative.</p>
+						<h4>Human-Computer interaction research at George Mason University</h4>
+						<p>As a <a href="https://devx.cs.gmu.edu/members/stuti" target="_blank">research intern</a> on the human-computer interaction team at <a href="http://assip.cos.gmu.edu" target="_blank">George Mason University</a>, I coded a Google Slides add-on called "Slide Helper". This add-on uses decision-trees to predict the style (font size, font color, font family, etc.) of the user's selected element based on the style of similar elements.</p>
+						<div style="text-align: center">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/TuPtl0jjPac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p><i>Please watch the above video where my partner and I can explain how this project works.</i></p>
+						</div>
+						<p>This project can be implemented as a journalistic tool as well. AP style is constantly changing, and it can be difficult as journalists to keep up with these adjustments. By conglomerating a singular database for the AP Style rules, we can use a refined version of "Slide Helper" to predict the way a certain phrase in an article should be formatted according to AP Style. By alleviating the worries of journalists in having to manually check for and edit AP Style-related errors in their articles, journalists will have more time to focus on the research and accuracy of their articles.</p>
+						<p></p>
 						<h3>A Slippery Slope</h3>
 						<p>I constructed this research project to further explore my interest in computational journalism.</p>
-						<p>Click <a href="https://a-slippery-slope.sites.tjhsst.edu/" target="_blank">here</a> to test out the project.</p>
+						<p><i>Click <a href="https://a-slippery-slope.sites.tjhsst.edu/" target="_blank">here</a> to test out the project.</i></p>
 						<h4>Purpose</h4>
 						<p>News media bias can have immense detrimental effects, including increased political polarization. Event selection, the events a news outlet chooses to cover or the manner in which a news outlet covers an event, is an important aspect of news media bias. To mitigate event selection, this program extracts text from user-inputted news outlets centered on the same event, and outputs the results in a visualization comparing each article’s “who, what, and where” along with the sentiment score. The visualization, presented as a chart, allows the user to understand the comparative bias across articles, and thereby the comparative bias across media outlets. Through computational event selection, we can efficiently create more aware readers and journalists, leading to more-fact-based articles and more-trustworthy media outlets.</p>
 						<span class="image main filtered"><img src="../../images/Laws-Ethics-and-News-Literacy/slippery-slope-chart.png" alt="" style="margin-top: -20px" /></span>
@@ -55,11 +67,11 @@
 						<ol>
 							<li>The User-Interface prompts the user to enter three articles on the same event.</li>
 							<li>On the back-end, the News-please API is used to extract the given articles' headline, lead, and main text.</li>
-							<li>For each article, the Google Cloud API is used to determine the "who, what, and where" of the article.</li>
-							<li>For each article, the Google Cloud API is used to determine the sentiment score and sentiment magnitude of the article. The score of a document's sentiment indicates the overall emotion of a document. The magnitude of a document's sentiment indicates how much emotional content is present within the document, and this value is often proportional to the length of the document.</li>
+							<li>For each article, the Cloud Natural Language API is used to determine the "who, what, and where" of the article.</li>
+							<li>For each article, the Cloud Natural Language API is used to determine the sentiment score and sentiment magnitude of the article. "The score of a document's sentiment indicates the overall emotion of a document. The magnitude of a document's sentiment indicates how much emotional content is present within the document, and this value is often proportional to the length of the document." (Cloud Natural Language API documentation)</li>
 							<li>The "who, what, where" and sentiment score and magnitude of each article is returned to the User-Interface in the form of a table, as shown in the figure above.</li>
 						</ol>
-						<p>Click <a href="https://drive.google.com/file/d/1UKRIYs2UHVUxIZPCQ2tKWNn5M3IK9jBY/view?usp=sharing" target="_blank">here</a> to read the full research paper.</p>
+						<p><i>Click <a href="https://drive.google.com/file/d/1UKRIYs2UHVUxIZPCQ2tKWNn5M3IK9jBY/view?usp=sharing" target="_blank">here</a> to read the full research paper.</i></p>
 					</section>
 
 				<!-- Footer -->
