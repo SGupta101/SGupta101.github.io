@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Transit by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Stuti Gupta</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<!-- a href="index.html" class="logo"></a -->
+						<nav>
+							<a href="../../laws-ethics-and-news-literacy.html" class="button" style="margin-top: 0.35em; margin-left: -0.35em"><i class="fas fa-arrow-left" style="margin-right: 0.5em"></i>Back</a>
+						</nav>
+					</header>
+
+				<!-- Nav -->
+					<!-- nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Sign Up</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav -->
+
+				<!-- Section -->
+					<section class="main">
+						<header class="invert accent2">
+							<h1>Computational Journalism</h1>
+							<p>I started coding because of the enthrall of (re)building something new, and continued because I realized computer science could be applied to fields from biology to music. I started journalism simply because I like to write, and continued because it’s a way I can learn a bit of everything. With knowledge, however, comes responsibility. Journalism is meant to give others a better understanding of the world, but this understanding gets muddled by media bias, rampant disinformation, and political polarization. I love computational journalism because I can mitigate this problem by efficiently unraveling complex stories in a more understandable and reputable manner using algorithms and data–my own serendipity.</p>
+						</header>
+						<h3>A Slippery Slope</h3>
+						<p>I constructed this research project to further explore my interest in computational journalism.</p>
+						<p>Click <a href="https://a-slippery-slope.sites.tjhsst.edu/" target="_blank">here</a> to test out the project.</p>
+						<h4>Purpose</h4>
+						<p>News media bias can have immense detrimental effects, including increased political polarization. Event selection, the events a news outlet chooses to cover or the manner in which a news outlet covers an event, is an important aspect of news media bias. To mitigate event selection, this program extracts text from user-inputted news outlets centered on the same event, and outputs the results in a visualization comparing each article’s “who, what, and where” along with the sentiment score. The visualization, presented as a chart, allows the user to understand the comparative bias across articles, and thereby the comparative bias across media outlets. Through computational event selection, we can efficiently create more aware readers and journalists, leading to more-fact-based articles and more-trustworthy media outlets.</p>
+						<span class="image main filtered"><img src="../../images/Laws-Ethics-and-News-Literacy/slippery-slope-chart.png" alt="" style="margin-top: -20px" /></span>
+						<p><b>Figure 1.</b><i> Displayed here is an example of what the output will look like on the website. In this example, the input is a total of four articles covering the storming of Capitol Hill that occured on January 6, 2021. Each of the articles is from a different news media outlet. Article one is from CNN (left-leaning), article two is from Bloomberg (moderately centered), article three is from Fox News (right-leaning), and article four is from Breitbart (significantly right-leaning). The articles in this example are not real, and are used solely to emphasize the difference in answers to “who, what, and where” along with the sentiment score across a spectrum of news media outlets with biases ranging from left to right. For instance, in labeling the “what” of their respective fabricated articles, CNN identifies it as a coup, whereas Fox News identifies it as a protest. It is this same understanding of differences in wording for the same event that the user will gain after analyzing the chart, helping the user determine the amount of bias or type of lean present in the articles that they are reading. </i></p>
+						<h4>Process</h4>
+						<p>Let's go through how this program works.</p>
+						<ol>
+							<li>The User-Interface prompts the user to enter three articles on the same event.</li>
+							<li>On the back-end, the News-please API is used to extract the given articles' headline, lead, and main text.</li>
+							<li>For each article, the Google Cloud API is used to determine the "who, what, and where" of the article.</li>
+							<li>For each article, the Google Cloud API is used to determine the sentiment score and sentiment magnitude of the article. The score of a document's sentiment indicates the overall emotion of a document. The magnitude of a document's sentiment indicates how much emotional content is present within the document, and this value is often proportional to the length of the document.</li>
+							<li>The "who, what, where" and sentiment score and magnitude of each article is returned to the User-Interface in the form of a table, as shown in the figure above.</li>
+						</ol>
+						<p>Click <a href="https://drive.google.com/file/d/1UKRIYs2UHVUxIZPCQ2tKWNn5M3IK9jBY/view?usp=sharing" target="_blank">here</a> to read the full research paper.</p>
+					</section>
+
+				<!-- Footer -->
+					<!-- footer id="footer">
+						<p class="copyright">&copy; Untitled. Al rights reserved.</p>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</footer -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

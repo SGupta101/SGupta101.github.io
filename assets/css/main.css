@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
 
 /*
-	Ethereal by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.center {
+	padding: 17px 0;
+}
+ 
 /* Page */
 
 	@-moz-keyframes load-spinner {
@@ -2397,6 +2401,10 @@ input, select, textarea {
 
 		.panel .span-1-25 {
 			width: 12.5rem;
+		}
+
+		.panel .span-1-5 {
+			width: 15rem;
 		}
 
 		.panel .span-1-75 {
